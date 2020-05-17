@@ -9,21 +9,34 @@
 /* Begin PBXBuildFile section */
 		0770C477236008F600BB680A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C476236008F600BB680A /* AppDelegate.swift */; };
 		0770C479236008F600BB680A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C478236008F600BB680A /* SceneDelegate.swift */; };
-		0770C47B236008F600BB680A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C47A236008F600BB680A /* ViewController.swift */; };
+		0770C47B236008F600BB680A /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C47A236008F600BB680A /* ToDoListViewController.swift */; };
 		0770C47E236008F600BB680A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770C47C236008F600BB680A /* Main.storyboard */; };
 		0770C480236008FB00BB680A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0770C47F236008FB00BB680A /* Assets.xcassets */; };
 		0770C483236008FB00BB680A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0770C481236008FB00BB680A /* LaunchScreen.storyboard */; };
+		0770C48D23600A1700BB680A /* CustomTableCellForToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0770C48C23600A1700BB680A /* CustomTableCellForToDo.swift */; };
+		0792336A2360B22A00C53C63 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079233692360B22A00C53C63 /* TrackerViewController.swift */; };
+		0792336C2360C3CA00C53C63 /* CustomCellForTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792336B2360C3CA00C53C63 /* CustomCellForTracking.swift */; };
+		0792336E23623CBD00C53C63 /* NewTaskToTrackConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792336D23623CBD00C53C63 /* NewTaskToTrackConfigurationViewController.swift */; };
+		079233702362D50900C53C63 /* ExpandedCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792336F2362D50900C53C63 /* ExpandedCellViewController.swift */; };
+		07EFDC3D2365F57600ADF89C /* tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07EFDC3C2365F57600ADF89C /* tick.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0770C473236008F600BB680A /* productive Me 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "productive Me 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0770C476236008F600BB680A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0770C478236008F600BB680A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0770C47A236008F600BB680A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0770C47A236008F600BB680A /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		0770C47D236008F600BB680A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0770C47F236008FB00BB680A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0770C482236008FB00BB680A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0770C484236008FB00BB680A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0770C48C23600A1700BB680A /* CustomTableCellForToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCellForToDo.swift; sourceTree = "<group>"; };
+		079233692360B22A00C53C63 /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		0792336B2360C3CA00C53C63 /* CustomCellForTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellForTracking.swift; sourceTree = "<group>"; };
+		0792336D23623CBD00C53C63 /* NewTaskToTrackConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskToTrackConfigurationViewController.swift; sourceTree = "<group>"; };
+		0792336F2362D50900C53C63 /* ExpandedCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedCellViewController.swift; sourceTree = "<group>"; };
+		079233712364B97A00C53C63 /* productive Me 2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "productive Me 2.entitlements"; sourceTree = "<group>"; };
+		07EFDC3C2365F57600ADF89C /* tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tick.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +53,7 @@
 		0770C46A236008F600BB680A = {
 			isa = PBXGroup;
 			children = (
+				07EFDC3C2365F57600ADF89C /* tick.mp3 */,
 				0770C475236008F600BB680A /* productive Me 2 */,
 				0770C474236008F600BB680A /* Products */,
 			);
@@ -56,15 +70,37 @@
 		0770C475236008F600BB680A /* productive Me 2 */ = {
 			isa = PBXGroup;
 			children = (
+				079233712364B97A00C53C63 /* productive Me 2.entitlements */,
+				0770C48B236009B400BB680A /* ViewControllers */,
+				0770C48A2360099D00BB680A /* CustomCellsAndCustomViews */,
 				0770C476236008F600BB680A /* AppDelegate.swift */,
 				0770C478236008F600BB680A /* SceneDelegate.swift */,
-				0770C47A236008F600BB680A /* ViewController.swift */,
 				0770C47C236008F600BB680A /* Main.storyboard */,
 				0770C47F236008FB00BB680A /* Assets.xcassets */,
 				0770C481236008FB00BB680A /* LaunchScreen.storyboard */,
 				0770C484236008FB00BB680A /* Info.plist */,
 			);
 			path = "productive Me 2";
+			sourceTree = "<group>";
+		};
+		0770C48A2360099D00BB680A /* CustomCellsAndCustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				0770C48C23600A1700BB680A /* CustomTableCellForToDo.swift */,
+				0792336B2360C3CA00C53C63 /* CustomCellForTracking.swift */,
+			);
+			path = CustomCellsAndCustomViews;
+			sourceTree = "<group>";
+		};
+		0770C48B236009B400BB680A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0770C47A236008F600BB680A /* ToDoListViewController.swift */,
+				079233692360B22A00C53C63 /* TrackerViewController.swift */,
+				0792336D23623CBD00C53C63 /* NewTaskToTrackConfigurationViewController.swift */,
+				0792336F2362D50900C53C63 /* ExpandedCellViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0770C483236008FB00BB680A /* LaunchScreen.storyboard in Resources */,
+				07EFDC3D2365F57600ADF89C /* tick.mp3 in Resources */,
 				0770C480236008FB00BB680A /* Assets.xcassets in Resources */,
 				0770C47E236008F600BB680A /* Main.storyboard in Resources */,
 			);
@@ -138,9 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0770C47B236008F600BB680A /* ViewController.swift in Sources */,
+				0792336E23623CBD00C53C63 /* NewTaskToTrackConfigurationViewController.swift in Sources */,
+				0792336A2360B22A00C53C63 /* TrackerViewController.swift in Sources */,
+				0792336C2360C3CA00C53C63 /* CustomCellForTracking.swift in Sources */,
+				0770C47B236008F600BB680A /* ToDoListViewController.swift in Sources */,
 				0770C477236008F600BB680A /* AppDelegate.swift in Sources */,
 				0770C479236008F600BB680A /* SceneDelegate.swift in Sources */,
+				079233702362D50900C53C63 /* ExpandedCellViewController.swift in Sources */,
+				0770C48D23600A1700BB680A /* CustomTableCellForToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +326,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "productive Me 2/productive Me 2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = YHGV54L5J3;
 				INFOPLIST_FILE = "productive Me 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +337,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.omarghanem.productive-Me-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,7 +347,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "productive Me 2/productive Me 2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = YHGV54L5J3;
 				INFOPLIST_FILE = "productive Me 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +358,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.omarghanem.productive-Me-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
